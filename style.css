@@ -1,0 +1,35 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  background: black;
+  transition-duration: 2s;
+  transition-timing-function: ease-out;
+  transition-delay: 0.5s;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 100px;
+  font-family: "Cousine";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 54px;
+
+  color: #90ff02;
+
+  border: 5px solid #90ff02;
+  border-radius: 10px;
+}
+h1:hover {
+  text-shadow: 0px 4px 10px rgba(144, 255, 2, 0.7);
+  filter: drop-shadow(0px 4px 15px #90ff02);
+}

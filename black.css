@@ -1,0 +1,129 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  font-family: "Montserrat";
+  font-style: normal;
+}
+.main {
+  background: #353535;
+  width: 100%;
+  height: 100vh;
+}
+.tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 59px;
+  margin-bottom: 20px;
+
+  text-align: center;
+  letter-spacing: 0.55em;
+
+  color: #3c3c3c;
+}
+.tabs div {
+  width: 257px;
+  height: 360px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  background: #202226;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.75), inset -2px -2px 2px #4e5154;
+  border-radius: 20px;
+}
+.tabs div:nth-of-type(2) {
+  margin-right: 46px;
+  margin-left: 46px;
+}
+.tabs .inner {
+  width: 226px;
+  height: 332px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  background: linear-gradient(180deg, #353a40 0%, #16171b 100%);
+  border-radius: 20px;
+}
+.inner button {
+  width: 122px;
+  height: 41px;
+  color: white;
+
+  border-radius: 20px;
+}
+.inner span:last-of-type {
+  font-weight: 700;
+  font-size: 30px;
+
+  color: #ffffff;
+  z-index: 1;
+
+  opacity: 0.6;
+  margin-bottom: 10px;
+  margin-top: 51px;
+}
+.inner {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  position: relative;
+
+  color: #ffffff;
+}
+p {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 22px;
+  z-index: 1;
+  opacity: 0.6;
+  
+}
+.tabs .number {
+  width: 104px;
+  height: 117px;
+  position: absolute;
+  bottom: 220px;
+  right: 20px;
+
+  
+  font-weight: 800;
+  font-size: 100px;
+  line-height: 117px;
+
+  text-align: center;
+ 
+
+  color: #3a4060;
+}
+.blue {
+  background: #0e7fd1;
+}
+.green {
+  background: #40df47;
+}
+.pink {
+  background: #f00978;
+}
+.inner:hover {
+  margin-bottom: 100px;
+}
+/* parilti o birilerde numune yoxdu deye hamsinda cehray saxladim */
+.inner:hover button {
+  box-shadow: 0px 0px 24px 13px rgba(240, 9, 120, 0.4);
+}
+.inner:hover p{opacity: 1;}
+.inner:hover span:last-of-type{opacity: 1;}

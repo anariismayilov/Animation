@@ -1,0 +1,75 @@
+body {
+  background-color: #d93535;
+}
+.main {   
+  height: 670px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left {
+  width: 416px;
+  height: 154px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 77px;
+  color: #ffffff;
+}
+.right div {
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  height: 128.82px;
+  margin-bottom: 41px;
+  background: #ffffff;
+  backdrop-filter: blur(56.3566px);
+  font-family: "Noto Sans CJK JP";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20.9325px;
+  line-height: 31px;
+  
+
+  text-align: center;
+
+  color: #1c1c1c;
+
+  border-radius: 9.66114px;
+  transform: rotate(-12.17deg);
+}
+.right div:nth-of-type(2) span {  
+  border: 1.61003px solid transparent;
+}
+.right div:last-of-type  {
+  border-bottom: 1.61518px solid transparent;
+}
+.right div span:first-of-type {margin-left: 70px;}
+.right div span {
+  margin-right: 160px;
+}
+.right div:first-of-type span:hover img {
+  display: block;
+}
+.right div:nth-of-type(2) span:hover {
+  color: #d93535;
+  border: 1.61003px solid #d93535;
+}
+.right div:last-of-type span:hover {
+  border-bottom: 1.61518px solid #d93535;
+}
+.right div span:hover {
+  color: #d93535;
+}
+.rel {
+  position: relative;
+}
+.rel img {
+  position: absolute;
+  left: 20px;
+  bottom: 30px;
+  display: none;
+}
